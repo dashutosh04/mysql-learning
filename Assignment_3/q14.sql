@@ -1,0 +1,4 @@
+--Display employee’s full name followed by a message based on salary. 
+-- If salary is above $100,000, display “HIGH”.
+-- If salary is between $50,000 and $100,000, display “MEDIUM”. 
+-- If salary is below $50,000, display “LOW”.

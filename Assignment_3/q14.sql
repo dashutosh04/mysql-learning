@@ -10,6 +10,6 @@ SELECT
         salary >= 60000,
         "HIGH",
         IF (salary <= 50000, "LOW", "MEDIUM")
-    ) AS Salary
+    ) AS message
 FROM
     employee;

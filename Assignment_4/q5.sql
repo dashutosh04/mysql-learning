@@ -1,4 +1,5 @@
---  Create a new user XYZ and grant only SELECT privilege to the user on your TERM table.
+.--  Create a new user XYZ and grant only SELECT privilege to the user on your TERM table.
+
 
 CREATE USER 'XYZ'@'%' IDENTIFIED BY '123';
 

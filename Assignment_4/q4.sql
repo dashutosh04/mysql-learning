@@ -1,4 +1,4 @@
--- Display average employee salary by department, but do not include departments with average salary less than $75,000.
+-- Display average employee salary by department, but do not include departments with average salary less than ₹50000.
 USE corp_emp;
 
 SELECT

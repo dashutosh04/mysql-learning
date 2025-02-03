@@ -6,12 +6,11 @@ SELECT
     d.*
 FROM
     employee as e
-    LEFT JOIN dependent AS d ON e.EmployeeId = d.EmployeeId;
-
+    LEFT JOIN dependent AS d ON e.EmployeeId = d.EmployeeId
 UNION
 SELECT
     CONCAT (e.Fname, " ", e.LName) AS Name,
     d.*
 FROM
     employee as e
-    LEFT JOIN dependent AS d ON e.EmployeeId = d.EmployeeId;
+    RIGHT JOIN dependent AS d ON e.EmployeeId = d.EmployeeId;

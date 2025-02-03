@@ -4,6 +4,8 @@ USE corp_emp;
 SELECT
     CONCAT (e1.Fname, " ", e1.Lname) AS Name
 FROM
-    e1.employee,
-    e2.employee
-WHERE e2.
+    employee e1,
+    employee e2
+WHERE
+    e2.Fname = 'Raj'
+    AND e1.DeptId = e2.DeptId;
